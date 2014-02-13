@@ -12,8 +12,8 @@ module CatFactsMailer
     config.action_mailer.smtp_settings = {
   :address              => "smtp.gmail.com",
   :port                 => 587,
-  :user_name            => "contactfivestarimports@gmail.com",
-  :password             => "fivestarcontact",
+  :user_name            => "catfactsservicer@gmail.com",
+  :password             => "catfacts",
   :authentication       => :plain,
   :enable_starttls_auto => true
 }
