@@ -3,7 +3,7 @@ class Fact < ActionMailer::Base
   require 'net/http'
 
   default :from => "catfactsservicer@gmail.com"
-  default :to => "amishe@gmail.com"
+  default :to => "barryoppenheim@orlandohyundai.com"
 
 
   def new_message(user_params={})
